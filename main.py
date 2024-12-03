@@ -47,3 +47,8 @@ async def process_put(item_id: int, item : Shop_Item, q : bool |None = None):
     if q:
         item_dict.update({"Id of this item": item_id})
     return item_dict
+
+"""-------------Lesson 5: Querry Parameters and String Validation--------------"""
+
+@app.get("/get_item")
+async def 
